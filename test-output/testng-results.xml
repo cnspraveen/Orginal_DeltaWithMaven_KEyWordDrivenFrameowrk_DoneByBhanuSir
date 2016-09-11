@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19285" started-at="2016-09-11T21:49:26Z" finished-at="2016-09-11T21:49:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19285" started-at="2016-09-11T21:49:26Z" finished-at="2016-09-11T21:49:45Z">
+      <class name="com.company.Mainpackag.Delta">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:com.company.Mainpackag.Delta@e45f292]" name="initFrameWork" is-config="true" duration-ms="224" started-at="2016-09-12T03:19:26Z" finished-at="2016-09-12T03:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.company.Mainpackag.Delta@e45f292]" name="AppLaunch" is-config="true" duration-ms="5785" started-at="2016-09-12T03:19:26Z" finished-at="2016-09-12T03:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Test" verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.company.Mainpackag.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="ScenarioName3(java.lang.String, java.lang.String)[pri:0, instance:com.company.Mainpackag.Delta@e45f292]" name="ScenarioName3" duration-ms="7315" started-at="2016-09-12T03:19:32Z" data-provider="getMultipleScenarios" finished-at="2016-09-12T03:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginScenario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioName3 -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.company.Mainpackag.Delta@e45f292]" name="quitApp" is-config="true" duration-ms="3" started-at="2016-09-12T03:19:39Z" finished-at="2016-09-12T03:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScenarioName3 status=SUCCESS method=Delta.ScenarioName3(java.lang.String, java.lang.String)[pri:0, instance:com.company.Mainpackag.Delta@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.company.Mainpackag.Delta@e45f292]" name="AppLaunch" is-config="true" duration-ms="5172" started-at="2016-09-12T03:19:39Z" finished-at="2016-09-12T03:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "Test" verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.company.Mainpackag.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="ScenarioName3(java.lang.String, java.lang.String)[pri:0, instance:com.company.Mainpackag.Delta@e45f292]" name="ScenarioName3" duration-ms="10" started-at="2016-09-12T03:19:45Z" data-provider="getMultipleScenarios" finished-at="2016-09-12T03:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginScenario2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioName3 -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.company.Mainpackag.Delta@e45f292]" name="quitApp" is-config="true" duration-ms="1" started-at="2016-09-12T03:19:45Z" finished-at="2016-09-12T03:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScenarioName3 status=SUCCESS method=Delta.ScenarioName3(java.lang.String, java.lang.String)[pri:0, instance:com.company.Mainpackag.Delta@e45f292] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="endFramework()[pri:0, instance:com.company.Mainpackag.Delta@e45f292]" name="endFramework" is-config="true" duration-ms="279" started-at="2016-09-12T03:19:45Z" finished-at="2016-09-12T03:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFramework -->
+      </class> <!-- com.company.Mainpackag.Delta -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
